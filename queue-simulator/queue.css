@@ -1,0 +1,59 @@
+
+body {
+    background-color: #495579;
+}
+
+#queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 250px;
+}
+
+.queue-item,
+.queue-deleted {
+    width: 70px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.queue-item {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.queue-deleted {
+    background-color: #dc3545;
+    color: white;
+}
+
+.queue-item small {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.pick {
+    background-color: gold;
+    color: black;
+}
+
+.popped {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+.bg-9C254D {
+    background-color: #9C254D;
+}
